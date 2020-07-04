@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:wss_counter/src/utils/network.dart';
+import 'package:wss_mobile/src/Utils/network.dart';
 
 class ConnectionChecker {
   Timer _timer;
