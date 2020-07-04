@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+![Flutter Build APK](https://github.com/rymesaint/flutter_counter/workflows/Flutter%20Build%20APK/badge.svg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
