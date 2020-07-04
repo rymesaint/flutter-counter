@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:dio_http_cache/dio_http_cache.dart';
-import 'package:flutter_counter/src/utils/server_status.dart';
+import 'package:wss_counter/src/utils/server_status.dart';
 
 class Network {
   final Dio _dio = Dio();
