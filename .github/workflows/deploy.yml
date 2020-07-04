@@ -33,6 +33,12 @@ jobs:
       
     - name: Install dependencies
       run: flutter pub get
+
+    - name: Check Payload
+      run: |
+      echo ${{ github.event.client_payload.flavor }}
+      echo ${{ github.event.client_payload.file_target }}
+      echo ${{ github.event.client_payload.package_name }}
       
     - name: Run Analyzer
       run: flutter analyze
