@@ -1,10 +1,9 @@
-osx_instance:
-  image: catalina-flutter
-  
-  task:
-    name: "Check Doctor"
-    script: flutter doctor -v
-
-  task:
-    name: "Analyze Project"
-    script: flutter analyze
+task:
+  # Basic metadata:
+  name: Analyze Project
+  # The build machine:
+  osx_instance:
+      image: catalina-flutter
+  # Instructions:
+  check_flutter_script: flutter doctor -v
+  analyze_project_script: flutter analyze
