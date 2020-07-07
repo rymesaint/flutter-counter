@@ -1,0 +1,8 @@
+osx_instance:
+    image: catalina-flutter
+  
+  flutter_check_task:
+    script: flutter doctor -v
+
+  flutter_analyze_task:
+    script: flutter analyze
