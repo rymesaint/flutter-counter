@@ -1,8 +1,10 @@
 osx_instance:
   image: catalina-flutter
   
-  flutter_check_task:
+  task:
+    name: "Check Doctor"
     script: flutter doctor -v
 
-  flutter_analyze_task:
+  task:
+    name: "Analyze Project"
     script: flutter analyze
