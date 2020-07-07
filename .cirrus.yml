@@ -1,5 +1,5 @@
 osx_instance:
-    image: catalina-flutter
+  image: catalina-flutter
   
   flutter_check_task:
     script: flutter doctor -v
